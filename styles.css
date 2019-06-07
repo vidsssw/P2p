@@ -1,0 +1,195 @@
+h1
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+body
+{
+  font-family: 'Montserrat', sans-serif;
+}
+h3
+{
+  font-weight: bold;
+ font-size: 1.5rem;
+}
+
+h2
+{
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+#title
+{
+  background-color: #6fc2d0;
+}
+
+.navbar-brand
+{
+  color: #ececec;
+}
+
+
+
+.container-fluid
+{
+  padding-top: 3%;
+  padding-bottom: 9%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.firstimg
+{
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left: 10%;
+  position: absolute;
+  z-index: 0;
+
+}
+
+@media (max-width: 1228px) {
+
+  .firstimg
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+
+}
+
+
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar
+{
+
+  padding: 0 0 4.5rem;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.dwnd
+{
+  margin: 7% 3% 7% 0;
+}
+
+
+
+.container-fluid-fbox
+{
+  padding: 7% 15%;
+}
+#features
+{
+  position: relative;
+  background-color: #eaeaea;
+ z-index: 1;
+
+}
+
+.ftrs
+{
+  margin-top: 5%;
+  text-align: center;
+   padding: 5%;
+
+}
+
+
+
+#testimonials
+{
+
+  background-color: #acdbdf;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.team
+{
+  padding: 7% 15%;
+}
+
+.teamhead
+{
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
+    color: #373640;
+    font-size: 2.5rem;
+    font-weight: 350;
+
+
+}
+
+.imgt
+{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#pricing
+{
+  background-color: #eaeaea;
+  padding: 100px;
+  text-align: center;
+}
+
+.cardh
+{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.prccol
+{
+  padding: 3% 2%;
+}
+
+#cta
+{
+  padding: 100px;
+  background-color:  #acdbdf;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.myicon
+{
+  color: #6fc2d0;
+  margin-bottom: 40px;
+}
+
+.myicon:hover
+{
+  color: #acdbdf;
+}
